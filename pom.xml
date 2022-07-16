@@ -29,6 +29,24 @@
       <artifactId>jakarta.servlet-api</artifactId>
       <version>5.0.0-M2</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/jakarta.platform/jakarta.jakartaee-api -->
+    <dependency>
+      <groupId>jakarta.platform</groupId>
+      <artifactId>jakarta.jakartaee-api</artifactId>
+      <version>8.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.glassfish/jakarta.faces -->
+    <dependency>
+      <groupId>org.glassfish</groupId>
+      <artifactId>jakarta.faces</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+
+
+
   </dependencies>
 
   <build>
